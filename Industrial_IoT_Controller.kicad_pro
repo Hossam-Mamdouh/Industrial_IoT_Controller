@@ -446,7 +446,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
@@ -465,15 +465,15 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -661,7 +661,7 @@
         "uuid": "e4f7fda7-2a7d-418b-be25-5c3eece1d0a2"
       }
     ],
-    "used_designators": "D1-13,#PWR1-28,F1,R1-25,#FLG1-5,Cin1,J1-7,CN1,Q1-5,5\\-3V1,Buck1,C1-15,Cout1,K1,L1-2,SW1-2,U1-6,USB\\-C1,BOOT1,RESET1",
+    "used_designators": "D1-28,#PWR1-41,F1-6,R1-66,#FLG1-5,Cin1,J1-16,CN1,Q1-11,5\\-3V1,Buck1,C1-42,Cout1,LED1-8,K1-6,L1-4,SW1-2,U1-11,USB\\-C1,BOOT1,RESET1,RLED1-6,JP1,RST1",
     "variants": []
   },
   "sheets": [
